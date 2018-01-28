@@ -1,18 +1,39 @@
 # CIS431-LabAssignment1
 
-* To distort the images of bombus
+Using the twirl filter to distort the images of bombus, compiled by both g++ and ispc.
 
-* OSX compilation:
+Before compile the code, make sure you have installed ispc and the Cool Image (CImg) library of c++.
+
+* Compile g++:
+
+OSX compilation:
 
 	~~~~
-	g++ -I/opt/X11/include -o twirlfilter twirlfilter.cpp -L/opt/X11/lib -lX11 -ljpeg
+	g++ -I/opt/X11/include -o twirlfilter twirlfilter_serial.cpp -L/opt/X11/lib -lX11 -ljpeg
 	~~~~
 	
-* To run the program:
+Run the program in terminal:
 
 	~~~~
 	./twirlfilter
 	~~~~
-	Then follow the prompt
+Then follow the prompt
+	
+* Compile ispc:
+
+	~~~~
+	make
+	~~~~
+	
+Run the program in terminal:
+
+	~~~~
+	./twirlfilter
+	~~~~
+Then follow the prompt
+
+I tested them with 200 pixels radius and 3.14 radians angle. 
+the c++ one costs 0.062439s, whereas the ispc one costs 0.017738s.
+
 
 
