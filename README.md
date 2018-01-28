@@ -18,7 +18,7 @@ Run the program in terminal:
 
 	./twirlfilter
 	
-Then follow the prompt
+Then follow the prompt.
 	
 * For compiling ispc:
 
@@ -31,7 +31,7 @@ Run the program in terminal:
 	
 	./twirlfilter
 	
-Then follow the prompt
+Then follow the prompt.
 
 
 
