@@ -8,15 +8,12 @@ Before compile the code, make sure you have installed ispc and the Cool Image (C
 
 OSX compilation:
 
-	~~~~
 	g++ -I/opt/X11/include -o twirlfilter twirlfilter_serial.cpp -L/opt/X11/lib -lX11 -ljpeg
-	~~~~
 	
 Run the program in terminal:
 
-	~~~~
 	./twirlfilter
-	~~~~
+	
 Then follow the prompt
 	
 * Compile ispc:
@@ -27,9 +24,9 @@ Then follow the prompt
 	
 Run the program in terminal:
 
-	~~~~
+	
 	./twirlfilter
-	~~~~
+	
 Then follow the prompt
 
 I tested them with 200 pixels radius and 3.14 radians angle. 
