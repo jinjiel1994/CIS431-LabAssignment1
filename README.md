@@ -4,7 +4,7 @@ Using the twirl filter to distort the images of bombus, compiled by both g++ and
 
 Before compile the code, make sure you have installed ispc and the Cool Image (CImg) library of c++.
 
-* Compile g++:
+* For compiling g++:
 
 OSX compilation:
 
@@ -16,11 +16,11 @@ Run the program in terminal:
 	
 Then follow the prompt
 	
-* Compile ispc:
+* For compiling ispc:
 
-	~~~~
-	make
-	~~~~
+~~~~
+make
+~~~~
 	
 Run the program in terminal:
 
