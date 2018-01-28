@@ -1,7 +1,7 @@
 
 CXX= g++
 CXXFLAGS=-I/opt/X11/include -Iobjs/ -O3 -Wall -L/opt/X11/lib -lX11 -ljpeg
-ISPC= /Users/jerrylee/Documents/CIS431/ispc-v1.9.2-osx/ispc 
+ISPC= ispc 
 ISPCFLAGS= -O2 --arch=x86-64 --target=sse2
 
 default: twirlfilter
